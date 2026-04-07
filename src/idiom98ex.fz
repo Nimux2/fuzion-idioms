@@ -1,0 +1,5 @@
+ts := u64 1000000000
+
+d := time.date_time.from_seconds ts
+
+say d
