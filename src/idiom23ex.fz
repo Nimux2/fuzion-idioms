@@ -1,7 +1,6 @@
-number := 3.14159
-decimals := 2
+x := 3.14159
 
 # Multiply by 100, floor it, then divide by 100
-rounded := (number * (10 ** decimals).as_f64).floor / (10 ** decimals).as_f64
+s := (x * 100).floor / 100
 
-say rounded  # Output: 3.14
+say s  # Output: 3.14
