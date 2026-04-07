@@ -1,2 +1,2 @@
-exe_name := envir.args.nth 0
-say "Executable: {exe_name}"
+s := envir.args.nth 0
+say "Executable: {s}"
