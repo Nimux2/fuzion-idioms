@@ -1,0 +1,5 @@
+x := 3.14159
+
+s := ((x * 100).floor / 100).as_string
+
+say s  # Output: 3.14
