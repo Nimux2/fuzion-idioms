@@ -1,1 +1,2 @@
 s := envir.args.nth 0
+say "Executable: {s}"
