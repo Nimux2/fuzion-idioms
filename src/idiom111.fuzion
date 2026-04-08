@@ -1,0 +1,5 @@
+x := "processName"
+a := "argument 1"
+b := "argument 2"
+
+c := os.process.start x [a, b]
